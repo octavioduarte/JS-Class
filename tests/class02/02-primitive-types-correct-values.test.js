@@ -1,4 +1,4 @@
-import { primitiveTypes } from '../../src/class02/02-primitive-types'
+import { primitiveTypes } from '../../src/class02/01-primitive-types'
 import { handleLogTest } from '../../utils/handle-log'
 import { types, lesson } from './util'
 

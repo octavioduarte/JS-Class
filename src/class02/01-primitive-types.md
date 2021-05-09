@@ -1,4 +1,4 @@
-#  Class 01 - 02 Primitive Types  
+#  Class 02 - 01 Primitive Types  
 
 > Use strings to write the name of Javascript primitive types
 
