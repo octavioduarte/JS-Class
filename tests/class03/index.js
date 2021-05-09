@@ -1,0 +1,1 @@
+export * from './02-truth-table.test'
