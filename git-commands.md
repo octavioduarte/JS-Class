@@ -24,3 +24,9 @@
 ```bash
     git checkout  nome-da-branch-que-desejo-ver
 ```
+
+### Para atualizar uma branch local em relação a branch remota 
+
+```bash
+    git pull origin nome-da-branch
+```
