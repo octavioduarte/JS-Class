@@ -42,3 +42,9 @@
 ```bash
     git pull origin nome-da-branch
 ```
+
+### Para renomear a branch atual 
+
+```bash
+    git branch -m novo-nome
+```
