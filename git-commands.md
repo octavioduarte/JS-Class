@@ -3,9 +3,19 @@
 ```bash
     git add .
     git commit -m "mensagem"
+
+    # Fazer um commit que representa uma nova funcionalidade use "feat:"
+    # Exemplo: git commit -m "feat: create validation of form"
+
+    # Fazer um commit que representa uma melhoria no código "refactor:"
+    # Exemplo: git commit -m "refactor: correct name of var"
+
+    # Fazer um commit que representa uma correção no código "fix:"
+    # Exemplo: git commit -m "fix: correct fuction that valid form"
 ```
 
 >(Respeitando as regras do [conventional commits](https://www.conventionalcommits.org/en/v1.0.0))
+
 
 ### Para subir para o github
 
@@ -48,3 +58,4 @@
 ```bash
     git branch -m novo-nome
 ```
+
