@@ -10,14 +10,14 @@
 
 // Then make a Pull Request for the master branch of this repository
 
-const name = "gabriel"
+const name = "Gabriel"
 var age = 20
 var hobby = "games"
 var preferredColorBlack = true
-var studiedLinguage = "java script"
+var studiedLinguage = "Javascript"
 const favoriteMusicStyle = "rock"
-const dogName = "babu"
+const dogName = "Babu"
 var dogAge = 4
-var favoriteGame = "halo"
-var intendedPosition = "java script developer"
+var favoriteGame = "Halo"
+var intendedPosition = "Developer Javascript"
 
