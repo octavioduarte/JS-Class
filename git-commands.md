@@ -17,6 +17,18 @@
 
 ```bash
     git checkout -b nome-da-nova-branch
+
+    # Lembre-se de criar branchs com nomes semânticos 
+
+    # Ao criar uma branch que representa uma nova funcionalidade ou implementanção use "feat/"
+    # Exemplo: git checkout -b feat/new-func
+
+    # Ao criar uma branch que representa um ajuste em um código use "refactor/"
+    # Exemplo: git checkout -b refactor/adjust
+
+    # Ao criar uma branch que representa uma correção use "fix/"
+    # Exemplo: git checkout -b fix/correction
+
 ```
 
 ### Para navegar entre branchs
