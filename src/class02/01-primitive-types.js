@@ -3,22 +3,20 @@ export const primitiveTypes =
         // After this row
 
         "String",
-        // Em qualquer linguagem de programação, uma string é uma sequência de caracteres usados para representar texto
+        // In any programming language, a string is a sequence of characters used to represent text
         
         "Number",
-        // Number é um tipo de dado numérico
+        // Number is a numeric data type.
         
-        "Booleano",
-        //Um booleano, em ciência da computação, é um tipo de dado lógico que pode ter apenas um de dois valores possíveis: verdadeiro ou falso. Por exemplo, em JavaScript, condicionais booleanas são usadas para decidir quais trechos do código serão executados ou repetidas.
+        "Boolean",
+        //A Boolean, in computer science, is a logical data type that can have only one of two possible values: true or false. For example, in JavaScript, Boolean conditionals are used to decide which pieces of code will be executed or repeated.
         
-        "Nulo",
-        // Em ciência da computação, um valor nulo representa uma referencia que aponta, geralmente de maneira intencional, para um objeto ou endereço de memória inválido ou inexistente. O significado do valor nulo varia entre as implementações das linguagens.
+        "Null",
+        // In computer science, a null value represents a reference that points, usually intentionally, to an invalid or non-existent memory object or address. The meaning of the null value varies between language implementations.
         
-        "undefined",
-        // Um valor  primitive automaticamente atribuido para variaveis que foram recentemente declaradas ou para arguments formais para qual não existem argumentos atualmente.
-        
-        "Symbo",
-        //Esse termo do glossário descreve tanto o tipo de dados chamado "symbol", quando a função/classe "Symbol()", que entre outras coisas, cria instâncias do tipo de dados symbol.
+        "Undefined",
+        // A primitive value automatically assigned to variables that were newly declared or to formal arguments for which no arguments currently exist.
+
 
         // Before this row
     ]
