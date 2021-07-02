@@ -8,13 +8,12 @@ const operator1 = "!"
 const operator2 = "||"
 /*
     It is true if you hear at least one true statement.
-    
+
 */
 
 
-const operator2 = "&&"
+const operator3 = "&&"
 /*
     It is only true if they are all true otherwise it will be negative.
     
 */
-
