@@ -1,5 +1,5 @@
-var student= "Gabriel"
-var password = 1234
+const student= "Gabriel"
+const password = 1234
 
 if (student === "Gabriel" && password === 1234)
 {

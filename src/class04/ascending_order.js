@@ -4,9 +4,9 @@
 */
 
 
-var v1 = 3
-var v2 = 50
-var v3 = 30
+const v1 = 3
+const v2 = 50
+const v3 = 30
 
 
 if ((v1 > v2) && (v1 < v3)) {

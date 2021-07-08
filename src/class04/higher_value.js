@@ -3,9 +3,9 @@
      and print the largest value between them.
 */
 
-var v1 = 40
-var v2 = 40
-var v3 = 40
+const v1 = 40
+const v2 = 40
+const v3 = 40
 
 if ((v1 > v2) && (v1 > v3)){
 

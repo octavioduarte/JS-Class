@@ -1,6 +1,6 @@
-var x = 40
-var y = 50
-var z = 100
+const x = 40
+const y = 50
+const z = 100
 
 
 if ((x > y) && (x > z)){
