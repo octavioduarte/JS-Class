@@ -4,3 +4,20 @@
 
     Use default to register "Gender not specified"
 */
+
+
+var gender = "m"
+
+switch (gender){
+    case "m":
+    console.log("male gender")
+    break;
+
+    case "f":
+    console.log("feminine gender")
+    break;
+
+default: 
+    console.log("Gender not specified")
+
+}
