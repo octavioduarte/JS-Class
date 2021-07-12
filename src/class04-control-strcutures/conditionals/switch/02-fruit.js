@@ -9,3 +9,23 @@
     and check your browser console. Also create a default, which will return
     an error message to the console.
 */
+
+var fruit = "watermelon"
+
+switch (fruit){
+    case "apple":
+    console.log ("We do not sell this fruit here")
+    break;
+    
+    case "kiwi":
+    console.log ("We are short of kiwi")
+    break;
+
+    case "watermelon":
+    console.log ("Here it is R$ 3.00 per kilo")
+    break;
+
+default:
+    console.log ("Sorry we don't have this fruit or we don't recognize it, so please contact us on number (xxx) for more information")
+
+}
