@@ -5,8 +5,22 @@
  * 
  */
 
+// Tips: for - if - push 
+
 const evenNumbers = []
 const oddNumbers =  []
 
+for (var i = 0; i <= 100; i++ )
+    
+  if ( i % 2 === 0 ){
+  evenNumbers.push (i)
+  }
+  else {
+  oddNumbers.push (i)
+ }
+ 
+console.log (evenNumbers,oddNumbers)
 
-// Tips: for - if - push 
+
+
+
