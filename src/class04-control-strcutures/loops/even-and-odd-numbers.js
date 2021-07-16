@@ -9,3 +9,4 @@ const evenNumbers = []
 const oddNumbers =  []
 
 
+// Tips: for - if - push 
