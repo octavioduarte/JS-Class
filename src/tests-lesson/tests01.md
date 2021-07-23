@@ -1,33 +1,35 @@
 > 01) Diga o nome de cada um dos operadores abaixo: 
 
- '>'  --> (valor maior) 
- '<'  --> (valor menor)
+ '>'  --> (Faz a comparação se o valor e maior do que outro) 
+ '<'  --> (Faz a comparação se o valor e menor de que outro)
  '!'  --> (nao) nega o valor associado a ele.
- '>=' --> (maior ou igual)
- '<=' --> (menor ou igual) 
- '&&' --> (diferente) true somente quando todos os valores sao verdadeiros caso tenha algum valor negativo é false.
- '||' --> (igual)todos os valores tem que ser falso para dar false, tendo apenas um valor verdadeiro e true.
+ '>=' --> (Compara o valor se é maior ou igual ao outro)
+ '<=' --> (compara se o valor é menor ou igual ao outro) 
+ '&&' --> (E) Analisa multiplas condições e retorna "true" se todas forem verdadeiras
+ '||' --> (OU) Analisa multiplas condições e retorna "false" se todas forem falsas
 
 
 ---------------------------------------------------------------------------------------------------------------------------
 
 > 02) Qual a diferença entre '==' e '===' ?
 
-R: ((==ignora a semantica), (===ele faz a priorização da semantica))
+R: ((==Analisa valores e ignora a tipagem), (===Analisa os valores e tipagem))
 
 
 ---------------------------------------------------------------------------------------------------------------------------
 
 > 03) O que é e para que serve um array ? 
 
-R: (o array ele pode armazenar valores em forma de lista)
+R: (O array permite agrupar dados em uma unica variavel)
 
 
 ---------------------------------------------------------------------------------------------------------------------------
 
 > 04) Escreva um for que faz uma contagem regressiva de 100 até 27 ? 
 
-R: ()
+R: for (var i = 100; i <= 27; i--){
+    console.log(i)
+}
 
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -48,7 +50,7 @@ R: ()
 ~~~javascript
  const list = ["O", "Palmeiras", "não", "tem", "mundial"]
  const size = list.length
- // 1, 2, 3, 4, 5 
+ // valor 5
 ~~~
 
 
@@ -61,9 +63,9 @@ var idade = 20
 var dia = 22
 var mes = "julho"
 constantes sao valores que nao serao modificados exemplo:
-const nome = Gabriel
-const sobreNome = oliveira
-const cpf = 000.000.000-00
+const nome = "Gabriel"
+const sobreNome = "Oliveira"
+const cpf = "000.000.000-00"
 )
 
 
@@ -73,10 +75,10 @@ const cpf = 000.000.000-00
 
 ~~~javascript 
 
-push()    // --> sobe um valor para o final da variavel
-pop()     // --> sobe um valor para o começo da variavel
-unshift() // --> apresenta os valores pelo indice informado 
-slice()   // --> deleta o ultimo valor do indice
-shift()   // --> deleta o primeiro valor do indice 
+push()    // --> Adiciona um novo elemento no ultimo indice do Array.
+pop()     // --> Deleta o ultimo valor do Array.
+unshift() // --> Adiciona um novo elemento no começo do Array.
+slice()   // --> Retorna uma copia do array de acordo com os indices passados.
+shift()   // --> Deleta o primeiro valor do Array
 
 ~~~
