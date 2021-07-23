@@ -36,4 +36,33 @@ const clientsUK = [
     'efcaq2rq3us6u73f40e66@uk.io',
     '3490lqjrx3ck2ds64y83tn@eua.com'
 ]
+const correctListBrazil = []
+const correctListEUA = []
+const correctListUK = []
 
+
+const allClients = [clientsBrazil, clientsEua, clientsUK]
+
+for (var i = 0; i < allClients.length; i++) { // allClients
+
+    const sizeOfListClient = allClients[i].length
+
+    for (var j = 0; j < sizeOfListClient; j++) {
+        const listValue = allClients[i][j]
+
+        const isBrazil = listValue.indexOf("brazil") > -1
+        const isEUA = listValue.indexOf("eua") > -1
+
+        if (isBrazil) {
+            correctListBrazil.push(listValue)
+        } else if (isEUA) {
+            correctListEUA.push(listValue)
+        } else {
+            correctListUK.push(listValue)
+        }
+    }
+}
+
+console.log(correctListBrazil)
+console.log(correctListEUA)
+console.log(correctListUK)
